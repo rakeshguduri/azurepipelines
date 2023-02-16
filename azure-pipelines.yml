@@ -4,5 +4,5 @@ pool:
  vmImage: ubuntu-latest
 
 steps:
-- script: ansible-playbook -i hosts jdk.yml
+- script: 'ansible-playbook -i hosts jdk.yml'
   displayName: 'calling playbook'
