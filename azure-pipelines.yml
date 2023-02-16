@@ -1,8 +1,7 @@
 ---
 pool:
   name: default
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-20.04'
 
 steps:
-- script: ansible-playbook -i hosts jdk.yml
-  displayName: 'calling playbook'
+- script: 'ansible-playbook -i hosts jdk.yml'
